@@ -1,0 +1,268 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+/* Banner styles */
+.header {
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    padding: 216px 230px 0 845px;
+    margin-bottom: 24px;
+
+}
+
+.banner-desc {
+    color: #444343;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 230px 0 876px;
+    margin-bottom: 32px;
+}
+
+.contact {
+    margin: 0px 230px 0 1210px;
+    align-items: right;
+    background-color: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main {
+    margin: 131px auto;
+
+}
+
+/* Failure styles */
+
+.failures {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 0 206px;
+    justify-content: center;
+
+}
+
+.failure-body {
+    margin-left: 87px;
+
+
+}
+
+.failure-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+
+}
+
+.failure-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+
+}
+
+li {
+    list-style: none;  
+    margin-bottom: 8px;
+}
+i{
+    padding: 0 10px 0 0;
+    color: #16D887;
+}
+
+/* Bonus section styles */
+
+.achievements{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 206px;
+    text-align: left;
+
+}
+.achieve-body{
+    margin-right: 87px;
+}
+.achieve-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.achieve-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+/* My Plan section styles */
+.My-plans {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.Plans {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-info-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+
+}
+
+.plan-desc {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
+}
+
+.plan-info {
+    text-align: center;
+}
+/* Gradient image styles */
+.gradient-image {
+    margin-top: 130px;
+    height: 300px;
+    background-image: linear-gradient(to left, rgba(252, 250, 245, 0.411), rgb(205, 62, 26)), url(../images/watch.png);
+    background-repeat: no-repeat;
+
+}
+
+.gradient-image-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 59px 617px 0px 64px;
+    margin-bottom: 24px;
+}
+
+.call {
+    border: none;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 916px 59px 64px;
+
+}
+
+/* Footer section styles */
+.footer {
+    margin-top: 130px;
+    display: flex;
+    background-color: #151414;
+    gap:330px;
+    
+
+}
+.future{
+    padding: 130px 0 130px 230px;
+    
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+
+}
+
+.footer-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+
+.mail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.subscribe{
+    padding: 130px;
+    max-width: 325px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+input {
+    padding: 21px 22px;
+    color: #F3F3F3;
+    height: 64px;
+    width: 325px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+
+.sub-button {
+    width: 170.11px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
